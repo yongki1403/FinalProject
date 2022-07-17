@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+form.form-memberform{
+	position: relative;
+    margin-top: 50px;
+}
+
+div.mypage-edit-content{
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    left: -50px;
+}
+
+
+span.mypage-edit-title{
+	font-weight: bold;
+    font-size: 30px;
+    color: #212529;
+}
+
+li.mypage-editmember{
+	display: inline-block;
+    width: 255px;
+    height: 90px;
+    left: -60px;
+    text-align: center;
+    position: relative;
+    padding-top: 27px;
+    color: #495056;
+    font-family: 'MinSans-Medium';
+    /* font-weight: 500; */
+    font-size: 16pt;
+    /* text-decoration: none; */
+    bottom: -40px;
+}
+
+li.mypage-scrap{
+	display: inline-block;
+    height: 90px;
+    left: -60px;
+    text-align: center;
+    position: relative;
+    padding-top: 27px;
+    color: #495056;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+    bottom: -40px;
+}
+
+li.mypage-mycalendar{
+	display: inline-block;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    padding-top: 27px;
+    color: #495056;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+    bottom: -40px;
+}
+
+li.mypage-review{
+	display: inline-block;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    padding-top: 27px;
+    color: #495056;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+    bottom: -40px;
+    left: 60px;
+}
+
+table.edit-content{
+	width: 600px;
+    height: 300px;
+    font-size: 10pt;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    font-weight: bold;
+    position: relative;
+    left: 220px;  
+}
+
+input{
+	border: 1px solid #afafaf;
+	border-radius: 5px;
+    font-family: 'MinSans-Light';
+    font-size:10.5pt;
+    padding: 10px 10px;
+}
+
+input.form-control-inputread{
+	width: 300px;
+    height: 40px;
+    border: 1px;
+    background-color:#dcdcdc;
+}
+
+input.form-control-inputbox{
+	width: 300px;
+    height: 40px;
+}
+
+input.form-control-inputmail{
+    height: 40px;
+    width: 139px;
+}
+
+div.btn-edit-group{
+	position: relative;
+    font-size: 10pt;
+    left: 320px;
+	margin-top: 100px;
+    margin-bottom: 100px;    
+}
+
+
+div.btn-editsuccess-group{
+	position: relative;
+    font-size: 10pt;
+    left: 320px;
+	margin-top: 150px;
+    margin-bottom: 80px;    
+}
+
+button.btn-update-information{
+	position: relative;
+    top: -60px;
+    margin-bottom: 10px;	
+	border-radius: 40px;
+    width: 120px;
+   	height: 40px;    
+    color: #fff;
+    background-color: #2bae66;
+ 	border: 1px;  
+ 	margin-right: 5px;
+    font-family: 'MinSans-Medium';
+    font-size:11pt;
+    float:left;
+ 	  
+}
+
+button.btn-delete{
+	position: relative;
+    top: -60px;
+    margin-bottom: 10px;	
+	border-radius: 40px;
+    width: 120px;
+   	height: 40px;
+    color: #2bae66;
+    background-color: #fff;
+    border: 1px solid #2bae66;
+    margin-left: 5px;
+    font-family: 'MinSans-Medium';
+    font-size:11pt;
+    left: 340px;
+}
+
+hr.memberedit-title-line{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    position: relative;
+    width: 930px;
+    left: -455px;
+}
+
+table.edit-content th{
+    font-family: 'MinSans-Light';
+    font-size:12pt;
+}
+
+.mypage-edit > .mypage-header > .mypage-menu > ul.mypage-ul > li.mypage-li {
+    display: inline-block;
+    color: #212529;
+    font-family: 'MinSans-Light';
+    font-size: 16pt;
+    padding-right: 60px;
+}
+
+.mypage-edit > .mypage-header > .mypage-menu > ul.mypage-ul > li.mypage-li:nth-child(1){
+    font-family: 'MinSans-Medium';
+	
+}
+
+span.mypage-editsuccess-title{
+	position: relative;
+	font-weight: bold;
+    font-size: 20pt;
+    color: #212529;
+    margin-left: 320px;
+
+}
+
+div.mypage-editsuccess-edong{
+	
+	margin-top: 130px;
+	
+}
+

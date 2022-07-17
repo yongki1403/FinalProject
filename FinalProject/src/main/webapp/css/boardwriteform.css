@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.writeform-main{
+	font-family: 'MinSans-Medium' !important;
+	align-items: center;
+  	display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    color: #212529;
+}
+
+div.writeform-main div.writeform-title{
+	width: 900px;
+    margin-top: 35px;
+}
+
+div.writeform-main div.writeform-title h2.writehead{
+	font-weight: 550;
+    font-size: 1.4em;
+}
+
+div.writeform-main input.writetitle{
+	width: 860px;
+    height: 50px;
+    border: 1px solid #e6e6fa;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+div.writeform-main textarea.textfield{
+	margin-top: 15px;
+    width: 860px;
+    height: 600px;
+    border: 1px solid #e6e6fa;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+div.writeform-main input::placeholder , textarea::placeholder{
+	color: #afafaf;
+	font-size: 0.9em;
+}
+
+div.writeform-main span.filetitle{
+	margin-left: 20px;
+}
+div.writeform-main span#filenum{
+	color: gray;
+	font-size: 10pt;
+	margin-left: 20px;
+}
+
+div.writeform-main #upload{
+	display: none;
+}
+
+div.writeform-main span.photoimg{
+	cursor: pointer;
+}
+
+div.writeform-main button.btn-cancel{
+	margin-top: 100px;
+    margin-right: 50px;
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid;
+    color: #2bae66;
+    background-color: white;
+    margin-bottom: 120px;
+}
+
+div.writeform-main button.btn-insert{
+	margin-top: 100px;
+    margin-right: 50px;
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid;
+    color: white;
+    background-color: #2bae66;
+}

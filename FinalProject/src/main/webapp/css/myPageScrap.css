@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mypage-content{
+    margin-bottom: 200px;
+	
+}
+
+hr.title-line{
+	width: 970px;
+    margin-left: -20px;
+    margin-bottom: 80px;
+    
+}
+
+div.scrap-count{
+	font-size: 17pt;
+    margin-top: 60px;
+    font-family: 'MinSans-Medium';
+	padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+	margin-bottom: 35px;
+}
+div.scrap-count-title > span:first-child{margin-right:30px;}
+div.scrap-count-title > span:last-child{color:#2bae66;}
+
+span.scrap-logo{
+	margin-left: 805px;
+	margin-top: -5px;
+}
+
+div.mypage-scrap img.scrap-img{
+	width: 210px;
+	height: 250px;
+    margin-top: 60px;
+    border-radius: 10px;
+	/* margin-right: 135px; */    
+}
+
+div.mypage-scrap .scrap-name {
+    padding: 20px 0;
+    font-family: 'MinSans-Medium';
+    font-size:12pt;
+}
+
+div.mypage-scrap .scrap-content {
+	width: 210px;
+	height: 250px;
+    display: inline-block;
+    margin: 35px;
+    cursor: pointer;
+}
+
+div.mypage-scrap .scrap-img {
+    padding: 0 auto;
+    text-align: center;
+}
+
+div.mypage-scrap .scrap-main {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.mypage-scrap .part{
+	color: #2bae66;
+	font-size: 9pt;
+}
+
+.mypage-scrap > .mypage-header > .mypage-menu > ul.mypage-ul > li.mypage-li {
+    display: inline-block;
+    color: #212529;
+    font-family: 'MinSans-Light';
+    font-size: 16pt;
+    padding-right: 60px;
+}
+
+.mypage-scrap > .mypage-header > .mypage-menu > ul.mypage-ul > li.mypage-li:nth-child(2){
+    font-family: 'MinSans-Medium';
+	
+}

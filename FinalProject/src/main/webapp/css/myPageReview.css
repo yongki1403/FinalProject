@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* font */
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mypage {
+    margin: 120px 0;
+}
+
+.review{
+	padding: 0 20px;
+}
+
+.mypage-header {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.mypage-header .mypage-title{
+    font-family: 'MinSans-Black';
+    font-weight: bold;
+    font-size: 30px;
+    color: #212529;
+    margin-bottom: 55px;
+}
+
+.mypage-menu {
+    width: 100%;
+}
+
+ul.mypage-ul {
+    padding: 0 10px;
+}
+
+li.mypage-li {
+    display: inline-block;
+    color: #212529;
+    font-family: 'MinSans-Light';
+    font-size: 16pt;
+    padding-right: 60px;
+}
+li.mypage-li:last-child{
+    font-family: 'MinSans-Medium';
+	
+}
+
+li.mypage-li > a::after{padding: 0 5px;}
+
+.review-contents {
+    padding: 20px 0;
+}
+
+.review-topbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.review-list {
+    padding: 10px 30px;
+}
+
+.review-title {
+    display: inherit;
+}
+
+.review-title a{
+    font-family: 'MinSans-Medium';
+    font-size:13pt;
+    margin-right: 20px;
+}
+
+.review-edit > button{
+    font-family: 'MinSans-Medium';
+    font-size:11pt;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.review-day > span{
+    font-family: 'MinSans-Light';
+	font-size:10pt;
+	color:#afafaf;
+}
+
+.review-edit > button::after{
+	padding: 5px;
+	content:"|";
+	}
+.review-edit > button:nth-child(2)::after{content:"";}
+
+
+.review-edit {
+    display: inherit;
+}
+
+.review-ment{
+	
+    font-family: 'MinSans-Light';
+	font-size:12.5pt;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
+{
+    background-color: #2bae66;
+    border:none;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #2bae66;
+}
+
+/* 리뷰 수정 */
+.review-button{
+	float:right;
+	padding-bottom:190px;
+}
+.review-button button {
+    width: 100px;
+    height: 45px;
+    background-color: #2bae66;
+    border: none;
+	border-radius: 30px;
+    color: white;
+    font-family: 'MinSans-Medium';
+    margin-right:10px;
+}

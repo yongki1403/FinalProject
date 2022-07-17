@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.regionTripText{
+	font-family: 'MinSans-Medium' !important;
+	align-items: center;
+  	display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    color: #212529;
+}
+
+div.regionTripText > div.trip-category{
+	width: 210px;
+    height: 230px;
+    background-color: #ffffea;
+    padding-left: 58px;
+    padding-top: 58px;
+    margin-right: 800px;
+    position: sticky;
+}
+
+div.regionTripText > div.trip-category > a.tripcategory{
+	color: gray;
+	font-weight: 650;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+div.regionTripText > div.trip-category > a.region-category {
+	color: #212529;
+}
+
+div.regionTripText > div.trip-category > a:hover{
+	color: #212529;
+	transition: 0.3s ease; 
+}
+
+div.regionTripText > div.category-title {
+	display: inline-block;
+	position: relative;
+    left: 87px;
+    top: -200px;
+}
+
+div.regionTripText > div.category-title > hr.title-line{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee; 
+    width: 734px;
+    margin-left: 0;
+}
+
+div.regionTripText > div.category-title > span.main-title{
+	font-weight: bold;
+	font-size: 25px;
+	color: #212529;
+}
+
+div.regionTripText > div.category-title > span.sub-title{
+	font-size: 0.8em;
+	color: #afafaf;
+}
+
+div.regionTripText > div.category-title > span.title-content{
+	float: right;
+	font-size: 0.8em;
+	padding-left: 266px;
+	text-align: right;
+	line-height: 1.3;
+}
+
+div.regionTripText div.trip-content{
+	width: 230px;
+    height: 270px;
+    border: 1px solid #e6e6fa;
+    border-radius: 10px;
+    position: relative;
+    left: 78px;
+    top: -149px;
+    margin-left: 16px;
+    margin-bottom: 47px;
+}
+
+div.regionTripText div.trip-content > img.trip-img{
+	width: 100%;
+	height: 170px;
+	border-top-left-radius : 10px;
+	border-top-right-radius : 10px;
+	cursor: pointer;	
+}
+
+div.regionTripText div.trip-content  span.trip-name{
+	  font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;
+	margin-top: 10px;
+}
+
+div.regionTripText div.trip-content span.trip-explanation{
+	 white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+    padding: 15px 10px;
+    width: 220px;
+    font-size: 10pt;
+}
+
+div.regionTripText div.trip-content span.trip-region{
+	 font-size: 0.8em;
+    color: #2bae66;
+    cursor: pointer;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 15px;
+}
+
+div.regionTripText div.trip-content > span.trip-region > img{
+	width: 12px;
+	position: relative;
+    top: 1px;
+}
+
+/* 별점 css */
+div.regionTripText .region-star-rating{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0 0.2em;
+    text-align: center;
+    width: 5em;
+    font-size: 9pt;
+    margin-top: -2px;
+    margin-left: 160px;
+}
+
+div.regionTripText .region-star-rating input {
+   display:none;
+}
+
+div.regionTripText .region-star-rating label {
+   color:#FFEB46;
+   cursor:pointer;
+}
+
+div.regionTripText .region-star-rating :checked ~ label {
+   color:#f90;
+}
+
+div.regionTripText > div.regionofkorea{
+	cursor: pointer;
+	position: relative;
+    left: 65px;
+    top: -215px;
+}
+
+div.regionTripText > div.regionofkorea > .region{
+	margin-left: 32px;
+	font-size: 1.2em;
+	color: gray;
+}
+
+div.regionTripText > div.regionofkorea > span:hover{
+	color: #212529;
+	transition: 0.3s ease; 
+}
+div.regionTripText > div.regionofkorea > span.seoul{
+	color: #2bae66;
+}
+
+div.regionTripText div.sortselectbar{
+	position: relative;
+    left: 391px;
+    top: -157px;
+}
+
+div.regionTripText > select.sortselect{
+	border-color: #afafaf;
+	border-radius: 5px;	
+	padding: 7px;
+}
+
+div.regionTripText > select.sortselect > option {
+	font-size: 0.9em;
+	text-align: center;
+}
+

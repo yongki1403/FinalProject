@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.login-info{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: 100%;
+  color: #212529;
+  font-family: MinSans-Medium;
+}
+
+td.login-info-email{
+	display: inline-block;
+    position: relative;
+    color: #212529;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+
+
+}
+
+td.login-info-info{
+    position: relative;
+    color: #2bae66;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+ 
+}
+
+td.login-info-end{
+    position: relative;
+    color: #212529;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+
+
+}
+
+hr.login-info-line{	
+	width: 50px;
+	border: 0;
+	height: 1px;
+	background-color: #E6E6E6;
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-bottom: 7px;				
+}
+
+span.login-info-title{
+	position: relative;
+	font-weight: bold;
+    font-size: 30pt;
+    color: #212529;
+	
+}
+
+div.login-info-edong{
+	
+	margin-top:100px;
+	
+}
+
+table.login-info-table{
+	
+	margin-top: 80px;		
+}
+
+img.login-info{
+	
+    position: relative;	
+	margin-bottom: -6px;
+}
+
+td.login-info-table-title{
+	
+	width: 120px;
+	font-family: 'MinSans-Medium';
+	font-size: 15pt;
+		
+}
+
+
+td.login-info-content{
+    width: 400px;
+    height: 50px;	
+	border: 1px solid #E6E6E6;
+		
+}
+
+td.login-info-empty{
+
+    height: 30px;			
+}
+
+td.login-info-empty-small{
+	
+    height: 20px;			
+}
+
+td.login-info-empty-small2{
+	
+    height: 18px;			
+}
+
+input.form-logineinfo-input{
+	
+	border: none;
+	width: 300px;
+	height: 50px;
+	padding-left: 25px;
+		
+}
+
+input:focus {
+	
+	outline:none;	
+}
+
+input.login-info-input-email1{
+	
+	width: 182px;
+	height: 50px;
+	border: 1px solid #E6E6E6;
+	padding-left: 25px;	
+	background-color: gainsboro;
+}
+
+input.login-info-input-email2{
+	
+	width: 187px;
+	height: 50px;
+	border: 1px solid #E6E6E6;
+	padding-left: 25px;	
+	background-color: gainsboro;
+}
+
+div.login-info-btn-group1{
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+div.login-info-btn-group2{
+	margin-left: 152px;
+	margin-top: 70px;
+}
+
+label.login-info-btn-check-all{
+	font-family: 'MinSans-Black';
+	border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #696969;  
+    margin-bottom: 10px;		
+}
+
+label.login-info-btn-check{
+	font-family: 'MinSans-Medium';
+	border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #696969;
+    margin-top: 7px;
+}
+
+span.login-info-a-color{
+	color: #00BFFF;
+}
+
+button.login-info-btn-back{
+	font-family: 'MinSans-Medium';
+	border: 0;	
+    outline: 0;
+    background-color: #fff;
+    color: #696969;
+    
+}
+
+button.login-info-btn-next{
+    font-family: 'MinSans-Medium';	
+	border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #696969;
+}
+
+div.login-info-btn-group1{
+	
+	margin-top:10px;
+	
+}
+
+img.login-info-check{
+	
+	margin-bottom:-4px;
+	
+}
+
+img.login-info-check1{
+	
+	margin-left: 1px;
+	margin-bottom: -2px;
+	margin-right: 2px;
+}
+
+img.login-info-back{
+	
+	margin-bottom: -6px;
+	margin-right: 10px;
+	
+}
+
+img.login-info-next{
+	
+	margin-bottom: -6px;
+	margin-left: 10px;
+	
+}
+
+div.login-info-btn-group1 input[type="checkbox"] {
+    display:none;
+}
+
+
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+    background: url(https://t1.daumcdn.net/cfile/tistory/99B9D6455B6C0C330B) left top no-repeat;
+    cursor: pointer;
+    background-size: cover;
+}
+
+input[id="allCheck"]:checked + label span {
+    background:url(https://t1.daumcdn.net/cfile/tistory/99B9D6455B6C0C330B)  -26px top no-repeat;
+    background-size: cover;
+}
+
+input[id="check1"]:checked + label span {
+    background:url(https://t1.daumcdn.net/cfile/tistory/99B9D6455B6C0C330B)  -26px top no-repeat;
+    background-size: cover;
+}
+
+input[id="check2"]:checked + label span {
+    background:url(https://t1.daumcdn.net/cfile/tistory/99B9D6455B6C0C330B)  -26px top no-repeat;
+    background-size: cover;
+}
+
+div.hangulName{
+	font-size: 12px;
+	color: red;
+	margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+div.checkuserid{
+	font-size: 12px;
+	color: red;
+	margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+div.duplicateid{
+	font-size: 12px;
+	color: red;
+	margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+div.userphonenumber{
+	font-size: 12px;
+	color: red;
+	margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+div.allnochecklist{
+	font-size: 12px;
+    color: red;
+    text-align: center;
+    margin-right: 158px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+div.allnocheckbtn{
+	font-size: 12px;
+	color: red;
+	margin-top: 5px;
+    margin-left: 35px;
+    display: none;
+} 
+
+div.rewritepass{
+    font-size: 12px;
+    color: red;
+    margin-top: 4px;
+    margin-left: 5px;
+    display: none;
+}
+
+div.donotmatchpass{
+    font-size: 12px;
+    color: red;
+    margin-top: 3px;
+    margin-left: 5px;
+    display: none;
+}

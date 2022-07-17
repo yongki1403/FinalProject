@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTDMapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="data.mapper.CalendarMapperInter">
+	<insert id="insertSchedule" parameterType="cdto">
+		insert into schedule(mnum,content,beginday,endday,schecolor) values(#{mnum},#{content},#{beginday},#{endday},#{schecolor})
+	</insert>
+	<select id="getScheList" resultType="cdto">
+		select schenum,mnum,content,DATE_ADD(beginday, INTERVAL 1 DAY) as beginday,DATE_ADD(endday, INTERVAL 1 DAY) as endday, schecolor from schedule where mnum=#{mnum}
+	</select>
+	<delete id="deleteSchedule" parameterType="cdto">
+		delete from schedule where schenum=#{schenum}
+	</delete>
+	<select id="getSnum" resultType="String">
+		select schenum from schedule where content=#{content}
+	</select>
+	<update id="updateSchedule" parameterType="cdto">
+		update schedule set content=#{content},beginday=#{beginday},endday=#{endday},
+		schecolor=#{schecolor} where schenum=#{schenum}
+	</update>
+	<select id="getSchedule" parameterType="String" resultType="cdto">
+		select * from schedule where schenum=#{schenum}
+	</select>
+</mapper>

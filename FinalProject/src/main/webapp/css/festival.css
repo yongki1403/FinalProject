@@ -1,0 +1,163 @@
+/* font */
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div.list-category-title {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+div.main-title {
+    display: inline-block;
+    float: left;
+    font-family: 'MinSans-Black';
+    font-size: 20pt;
+}
+
+div.sub-title {
+    float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'MinSans-Light';
+    color:#8C8C8C;
+}
+
+div.festival-proceeding {
+    margin-bottom: 30px;
+    /* width: 100%; */
+    display: inline-block;
+    width: 706px;
+}
+
+div.festival-proceeding div.title{
+	background-image: url("/image/asset/main-fesicon.png");
+	background-position: 310px center;
+	font-family: 'MinSans-Light';
+	float: left;
+	margin-left: 163px;
+	padding-right: 43px;
+	/* width: 680px; */
+}
+
+div.festival-calendar {
+    display: inline-block;
+    float: right;
+    padding-left: 76px;
+}
+
+div.festival-list {
+    width: 705px;
+    margin-left: 6px;
+}
+
+div.festival-list-main {
+    max-width: 970px;
+    width: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+div.festival-list-category {
+    width: 194px;
+    float: left;
+    height: 230px;
+    background-color: #ffffea;
+    margin-top:5px;
+    padding: 20px;
+    position: sticky;
+    top:0;
+}
+
+
+div.festival-list-category > ul.sidebar > li{
+	padding: 20px 20px;
+	font-size: 13pt;
+	font-family: 'MinSans-Medium';
+}
+
+div.festival-list-category > ul.sidebar > li:first-child{
+	font-family: 'MinSans-Light';
+}
+
+
+div.festival-list-main div.container{
+	width: 80%;
+	float: left;
+	padding: 0 35px;
+    margin-bottom: 80px;
+}
+div.festival-list-content{
+	width: 217px;
+	float: left;
+	border: 1px solid #e6e6fa;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+img.festival-img{
+	width: 100%;
+	height: 230px;
+	cursor: pointer;	
+}
+
+.name-box{
+    overflow: hidden;
+    font-size: 0;
+    padding: 15px;
+}
+
+.name-box > div {display:inline-block;padding-right:30px;}
+.explain-box > div {display:inline-block;/* padding-right:30px; */}
+
+.tripstory-name a{display:inline-block;}
+.name-box > div:last-child{padding-right:0;float: right;} 
+
+div.name-box > div.festival-name{
+    font-family: 'MinSans-Medium';
+	font-size: 12pt;
+	font-weight:bold;
+	cursor: pointer;
+    position: relative;
+    display: inline-block;
+    float: left;
+	
+}
+
+div.festival-region{
+	font-size: 11pt;
+	color: #2bae66;
+	cursor: pointer;
+	font-family: 'MinSans-Medium';
+	position: relative;
+	display: inline-block;
+	background-image: url("/image/asset/positionicon.png");
+	background-repeat: no-repeat;
+	background-position: 4px center;
+    background-size: 13px;
+    float: left;
+    padding: 10px 0 10px 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px;
+}

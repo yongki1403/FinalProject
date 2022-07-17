@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.login-emailcheck{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 550px;
+  color: #212529;
+  font-family: MinSans-Medium;
+  background-color: #fff;
+}
+
+div.modal-loginemail-dialog{
+	
+	width:600px;
+ 	margin-left: auto;
+	margin-right: auto;	
+	
+}
+
+span.login-emailcheck-title{
+	font-weight: bold;
+    font-size: 20pt;
+    color: #212529;
+    margin-right: 320px;
+    margin-top: 50px;
+
+}
+
+table.login-emailcheck-table{
+	
+	margin-top: 60px;
+	
+}
+
+
+hr.login-emailcheck-line-up{
+	width: 540px;
+    border: 0; 
+    height: 1px;
+    background-color:  #E6E6E6;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+td.login-emailcheck-table-title{
+	font-family: 'MinSans-Medium';
+	font-size: 22pt;	
+	
+	
+}
+
+
+td.login-emailcheck-empty-table{
+	
+	height:20px;
+}
+
+input.form-login-emailcheck-input{
+	border: 1px solid;
+	border-color:  #E6E6E6;
+	width: 190px;
+    height: 40px;
+    font-family: 'MinSans-Medium';
+    font-size: 12pt;
+}
+
+input.form-login-emailcheck-connectinput{
+	border: 0;
+    width: 16px;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+select.login-emailcheck-sel-box{
+	border: 1px solid;
+	border-color:  #E6E6E6;
+	width: 100px;	
+    height: 40px;
+    font-family: 'MinSans-Medium';
+    font-size: 12pt;    	
+	
+}
+
+span.login-emailcheck-message{
+    font-size: 18pt;
+    color: #212529;  
+    display: none;
+}
+
+span.login-emailcheck-failmessage{
+	font-size: 18pt;
+    color: #212529;  
+    display: none;
+}
+
+span.login-emailcheck-failemailmessage{
+	font-size: 18pt;
+    color: #212529;  
+    display: none;
+}
+
+button.login-emailcheck-btn-check{
+	border-radius: 40px;
+    width: 150px;
+   	height: 55px;    
+    color: #33b679;
+    background-color: #fff;
+ 	border: 1px;    
+	margin-top: 50px;
+	font-size: 13pt;
+	font-weight: bold;	
+	border-style: solid;
+ 	border-color: #33b679;
+}
+
+button.login-emailcheck-btn-use{
+	border-radius: 40px;
+    width: 150px;
+   	height: 55px;    
+    color: #fff;
+    background-color: #33b679;
+ 	border: 1px;    
+	margin-top: 25px;
+	font-size: 13pt;
+	font-weight: bold;
+	margin-left: 50px;	
+}
+

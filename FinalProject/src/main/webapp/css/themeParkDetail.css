@@ -1,0 +1,13 @@
+div.smimage3 > img{
+	width: 117px;
+	height: 117px;
+	cursor: pointer;
+	margin-top: 10px;
+	border: 1px solid #afafaf;
+}
+
+div.themepark-subedit {
+    font-size: 9pt;
+    display: flex;
+    align-items: center;
+}

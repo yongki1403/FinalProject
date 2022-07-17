@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTDMapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="data.mapper.CommentsMapperInter">
+
+	<insert id="insertOfComments" parameterType="comdto">
+		insert into comments(mnum, bnum, content, writeday, renum) values(#{mnum}, #{bnum}, #{content}, now(), #{renum})
+	</insert>
+	
+	<select id="getComments" parameterType="String" resultType="comdto">
+		select * from comments where bnum=#{bnum}
+	</select>
+	
+	<select id="getCommentsCnt" parameterType="String" resultType="int">
+		select count(*) from comments where bnum=#{bnum}
+	</select>
+	
+	<!-- 답글 반환 -->
+	<select id="getReplyComments" parameterType="String" resultType="comdto">
+		select * from comments where renum=#{cnum}
+	</select>
+	
+	<delete id="deleteComment" parameterType="String">
+		delete from comments where cnum=#{cnum}
+	</delete>
+	
+	<delete id="deleteCommentReply" parameterType="String">
+		delete from comments where renum=#{cnum}
+	</delete>
+	
+	<!-- 댓글 수정 -->
+	<update id="updateComment" parameterType="comdto">
+		update comments set content=#{content} where cnum=#{cnum}
+	</update>
+	
+	
+</mapper>

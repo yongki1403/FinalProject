@@ -1,0 +1,207 @@
+@charset "EUC-KR";
+
+
+
+
+/* 폰트 */
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 본문 div설정 */
+div.shareTripHome{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  color: #212529;
+  font-family: MinSans-Medium;
+  margin-bottom: 100px;
+} 
+
+/* 여행공유 헤더시작 */
+div.tripHeader{
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+    color: #212529;
+    font-family: MinSans-Medium;
+    margin-top: 36px;
+    
+}
+div.tripHeader div.shareTrip{
+	
+	width: 900px;
+	cursor: pointer;
+}
+
+div.tripHeader div{
+	font-size: 30px;
+	margin-bottom: 25px;
+	font-family: MinSans-Black;
+}
+div.tripHeader>span{
+	font-size: 14px;
+	color: #212529;
+	font-family: MinSans-Light;
+	margin-bottom: 20px;
+	width: 900px;
+	margin-left: 5px;
+}
+
+span.verLine{
+      font-weight: bold;
+}
+
+div.tripHeader span.tripHeadMsg::before {
+    content: "|";
+	color: #212529;
+    font-family: MinSans-black;
+    font-size: 12pt;
+}
+div.tripHeader span.newIcon{
+	width: 14px;
+	height: 14px;
+	margin-bottom: 6px;
+}
+div.tripHeader .board span{
+	font-size: 16px;
+	color: #777;
+	cursor: pointer;
+}
+div.tripHeader span#best{
+	margin: 0 180px 0 180px;
+}
+div.tripHeader span#bulletin{
+	margin: 0 180px 0 180px;
+}
+
+
+
+div.tripHeader .board{
+	margin: 0;
+	font-family: MinSans-Light;
+}
+div.tripHeader .boardActive{
+	width: 880px;
+	height: 7px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+div.tripHeader .bestboardActive{
+	width: 120px;
+	margin-left: 150px;
+	vertical-align: top;
+}
+div.tripHeader .bulboardActive{
+	width: 120px;
+	margin-left: 605px;
+	vertical-align: top;
+}
+div.tripHeader hr{
+	margin: 0px;
+	width: 900px;
+	size: 1px;
+	color: gray;
+}
+
+div.tripHeader hr.hr1{
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+/* 여행공유 헤더 끝 */
+
+
+/* 본문 시작 */
+div.boardpreview table{
+	width: 900px;
+	margin-top: 50px;
+}
+
+div.boardpreview table caption{
+	border: 1px solid #e5e5e5;
+	border-bottom-color: white;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	font-family: MinSans-Black;
+	padding-top: 13px;
+	font-size: 10pt;
+}
+div.boardpreview table tbody{
+	border: 1px solid #e5e5e5;
+	font-size: 11pt;
+}
+
+div.boardpreview table td{
+	padding: 15px 0 15px 40px;
+}
+
+div.boardpreview table tr:first-child td{
+	padding-top: 40px;
+}
+div.boardpreview table tr:last-child td{
+	padding-bottom: 40px;
+}
+
+
+div.boardpreview table td.boardId{
+	width: 150px;
+	color: gray;
+}
+
+img.newIcon{
+	width: 16px;
+}
+
+img.shareTripBanner{
+	width: 900px;
+}
+
+div.shareTripHome span.bestboard{
+	color: #2bae66;
+}
+
+
+div.boardpreview span#boardSubject{
+font-family: MinSans-Medium;
+	cursor: pointer;
+}
+
+div.boardpreview table tbody img{
+	width: 14px;
+	height: 14px;
+	margin-top: 2px;
+}
+
+
+
+

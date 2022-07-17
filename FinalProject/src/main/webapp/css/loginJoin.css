@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div.login-join{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: 100%;
+  color: #212529;
+  font-family: MinSans-Medium;
+}
+
+span.login-join-title{
+	font-weight: bold;
+    font-size: 30pt;
+    color: #212529;
+
+}
+
+span.login-join-subtitle1{
+    font-family: 'MinSans-Medium';	
+    font-size: 13pt;
+    color: #212529;
+    margin-top: 40px;
+
+
+}
+
+span.login-join-subtitle2{
+    font-family: 'MinSans-Medium';
+    font-size: 13pt;
+    color: #212529;
+
+}
+
+span.login-join-spancolor{
+	
+	color: #2bae66;
+}
+
+table.login-join-table{
+	
+	margin-top: 60px;
+	
+}
+
+td.login-join-table-empty1{
+	
+	border-top: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;	
+	height: 30px;	
+	
+}
+
+td.login-join-table-empty2{
+
+	border-left: 1px solid #E6E6E6;	
+	border-right: 1px solid #E6E6E6;
+	height: 80px;
+	
+}
+
+td.login-join-table-empty3{
+	
+	border-right: 1px solid #E6E6E6;
+	height: 80px;
+	
+}
+
+td.login-join-table-empty4{
+	
+	border-bottom: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;	
+	border-right: 1px solid #E6E6E6;
+	height: 30px;
+	
+}
+
+td.login-join-table-empty5{
+	
+	border-right: 1px solid #E6E6E6;	
+	height: 10px;
+	
+}
+
+th.login-join-table-title1{
+
+	width: 400px;
+	height: 80px;	
+	text-align: center;
+	vertical-align: top;	
+	border-right: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+    font-family: 'MinSans-Medium';
+    font-size: 15pt;	
+	
+}
+
+th.login-join-table-title2{
+	
+	width: 400px;	
+	height: 80px;
+	text-align: center;
+	vertical-align: top;		
+	border-right: 1px solid #E6E6E6;
+    font-family: 'MinSans-Medium';
+    font-size: 15pt;
+	
+}
+
+td.login-join-table-content1{
+	text-align: center;
+	border-right: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	vertical-align: middle;
+}
+
+td.login-join-table-content2{
+	height: 50px;	
+	text-align: center;
+	border-right: 1px solid #E6E6E6;	
+}
+
+td.login-join-table-content3{
+	height: 50px;	
+	text-align: center;
+	border-right: 1px solid #E6E6E6;	
+		
+}
+
+button.login-join-btn-join{
+    width: 230px;
+   	height: 70px;    
+    color: #fff;
+    background-color: #33b679;
+ 	border: 1px;
+	font-size: 17px;
+	border-radius: 20px;
+}
+
+button.login-join-btn-sns{
+    width: 230px;
+   	height: 45px;    
+    color: #696969;
+    background-color: #fff;  
+    border-style: solid;
+ 	border-color: #E6E6E6;
+	font-size: 14px;
+	border-width: 1px;
+	vertical-align: middle;
+}
+
+img.login-join-snsimg{
+	
+	text-align: left;
+	margin-right: 15px;
+}
+	
+span.login-join-text{
+	
+	vertical-align: 0.5em;
+}

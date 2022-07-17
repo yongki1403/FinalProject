@@ -1,0 +1,48 @@
+div.smimage2 > img{
+	width: 117px;
+	height: 117px;
+	cursor: pointer;
+	margin-top: 10px;
+	border: 1px solid #afafaf;
+}
+div.date{
+	font-family: 'MinSans-Black';
+    font-size: 1.7em;
+    width: 900px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+div.datecontent{
+	margin-bottom: 30px;
+}
+div.dateprocess{
+	text-align: center;
+}
+
+span.tripscrap{
+	cursor: pointer;
+}
+.subedit.fes {
+    margin-bottom: 0;
+    margin-top: 49px;
+}
+.datecontent > div > div::after{
+	content: "~";
+    font-size: 13pt;
+    padding-right: 10px;
+    padding: 0 10px;
+}
+.datecontent > div> div:nth-child(2)::after{
+	content: "";
+	padding: 0 0;
+}
+.datecontent > div > div > span {
+    width: 95px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+.fesdate {
+    display: flex;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MinSans-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinSans-Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.login-missid{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 100%;
+  height: 100%;
+  color: #212529;
+  font-family: MinSans-Medium;
+}
+
+span.login-missid-title{
+	font-weight: bold;
+    font-size: 26pt;
+    color: #212529;
+    margin-left: 0px;
+}
+
+
+li.login-missid-missid{
+	display: inline-block;
+    width: 160px;
+    left: -60px;
+    position: relative;
+    padding-top: 100px;
+    color: #212529;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+	font-family: MinSans-Black;
+}
+
+li.login-missid-misspass{
+	display: inline-block;
+    width: 160px;
+    left: 120px;
+    position: relative;
+    padding-top: 100px;
+    font-family: 'MinSans-Medium';
+    font-size: 16pt;
+	font-family: MinSans-Black;
+	color: #afafaf;
+}
+
+#amisspass{
+	color: #afafaf;
+}
+
+#amisspass:hover{
+	color: #212529;	
+}
+
+hr.login-missid-line-up{
+	width: 750px;
+    border: 0; 
+    height: 1px;
+    background-color: #E6E6E6;
+    margin-bottom: 60px;
+}
+
+hr.login-missid-line{
+	width: 750px;
+    border: 0; 
+    height: 1px;
+    background-color: #E6E6E6;
+    margin-top: 90px;
+}
+
+table.login-missid-table{
+    height: 270px;    
+}
+
+table.login-missidfalse-table{
+    height: 100px;    
+}
+
+th.missidsubj{	
+	font-family: 'MinSans-Medium';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+
+th.missidfalsesubj{	
+	font-family: 'MinSans-Medium';
+	font-size: 22pt;
+	text-align: center;
+	vertical-align: center;
+}
+
+input.form-missid-input{
+	border: 1px solid;
+	border-color: #E6E6E6;
+	width: 400px;
+    height: 60px;
+    font-family: 'MinSans-Medium';
+    margin-left: 30px;
+    padding-left: 25px;
+
+}
+
+input.form-missid-id{
+	border: 1px solid;
+	border-color: #E6E6E6;
+	width: 400px;
+    height: 60px;
+    font-family: 'MinSans-Medium';
+    margin-left: 30px;
+    background-color: #E6E6E6;
+    padding-left: 25px;
+}
+
+input.form-missid-id::placeholder{
+	color: black;
+}
+
+button.login-missid-btn-findid{
+	border-radius: 40px;
+    width: 200px;
+   	height: 60px;    
+    color: #fff;
+    background-color: #33b679;
+ 	border: 1px;
+ 	margin-left: 70px;    
+	margin-top: 25px;
+	font-size: 17px;
+	font-family: MinSans-Black;	
+}
+
+button.login-missid-btn-login{
+	border-radius: 40px;
+    width: 200px;
+   	height: 60px;    
+    color: #33b679;
+    background-color: #fff;  
+    border-style: solid;
+ 	border-color: #33b679;
+ 	margin-left: 40px;
+	margin-top: 25px;
+	font-size: 17px;
+	font-family: MinSans-Black;
+}
+
+button.login-missid-btn-loginfalse{
+	border-radius: 40px;
+    width: 200px;
+   	height: 60px;    
+    color: #33b679;
+    background-color: #fff;  
+    border-style: solid;
+ 	border-color: #33b679;
+ 	margin-left: 50px;
+	font-size: 17px;
+	font-family: MinSans-Black;
+}
+
+button.login-missid-btn-passsuccess{
+	border-radius: 40px;
+    width: 200px;
+   	height: 60px;    
+    color: #33b679;
+    background-color: #fff;  
+    border-style: solid;
+ 	border-color: #33b679;
+ 	margin-left: 200px;
+	font-size: 17px;
+	font-family: MinSans-Black;
+}
+
